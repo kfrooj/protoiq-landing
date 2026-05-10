@@ -1,18 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ProtoIQ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      color: #111111;
+    }
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 14px 40px rgba(15, 23, 42, 0.08);
+    }
+    .badge {
+      display: inline-block;
+      background: #111111;
+      color: #ffffff;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 0 0 12px;
+      letter-spacing: -1px;
+    }
+    .tagline {
+      font-size: 20px;
+      color: #475569;
+      line-height: 1.5;
+      max-width: 680px;
+      margin-bottom: 28px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+    .feature {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 18px;
+      font-weight: 700;
+    }
+    .cta {
+      margin-top: 28px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .button {
+      background: #111111;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-weight: 800;
+    }
+    .button.secondary {
+      background: #ffffff;
+      color: #111111;
+      border: 1px solid #d1d5db;
+    }
+    footer {
+      margin-top: 28px;
+      color: #64748b;
+      font-size: 14px;
+    }
+    footer a {
+      color: #2563eb;
+      font-weight: 700;
+      margin-right: 16px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; padding: 40px;">
-  <h1>ProtoIQ</h1>
-  <p>Smart peptide protocol tracking.</p>
+<body>
+  <main class="container">
+    <section class="hero">
+      <span class="badge">COMING SOON FOR ANDROID</span>
 
-  <p>
-    <a href="/privacy.html">Privacy Policy</a>
-  </p>
+      <h1>ProtoIQ</h1>
 
-  <p>
-    <a href="/delete-account.html">Delete Account</a>
-  </p>
+      <p class="tagline">
+        Smart protocol tracking for doses, injection history, inventory,
+        adherence, reminders, and injection site rotation.
+      </p>
+
+      <div class="cta">
+        <a class="button" href="mailto:support@protoiq.uk">Contact support</a>
+        <a class="button secondary" href="/privacy.html">Privacy Policy</a>
+      </div>
+
+      <div class="features">
+        <div class="feature">Protocol tracking</div>
+        <div class="feature">Injection history</div>
+        <div class="feature">Inventory forecasting</div>
+        <div class="feature">Adherence insights</div>
+        <div class="feature">Reminder support</div>
+        <div class="feature">Site rotation tracking</div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/delete-account.html">Delete Account</a>
+      <a href="/support.html">Support</a>
+      <p>© 2026 ProtoIQ. All rights reserved.</p>
+    </footer>
+  </main>
 </body>
 </html>
