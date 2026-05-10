@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProtoIQ</title>
+</head>
+<body style="font-family: Arial; padding: 40px;">
+  <h1>ProtoIQ</h1>
+  <p>Smart peptide protocol tracking.</p>
+
+  <p>
+    <a href="/privacy.html">Privacy Policy</a>
+  </p>
+
+  <p>
+    <a href="/delete-account.html">Delete Account</a>
+  </p>
+</body>
+</html>
